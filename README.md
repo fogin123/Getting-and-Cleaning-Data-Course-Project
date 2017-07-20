@@ -1,8 +1,7 @@
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# Getting and Cleaning Data Course Project
 
-*This text will be italic*
+###### The purpose of this project is to collect and clean data from the studies of wearable computing.
+
 _This will also be italic_
 
 **This text will be bold**

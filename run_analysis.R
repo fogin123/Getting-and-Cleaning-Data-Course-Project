@@ -67,7 +67,7 @@ GetAndCleanSets <- function (directory)
   tidy_data <- tidy_data %>% summarise_all(funs(mean))
   
   #write tidy data into file "tidy_data.txt" in global directory
-  write.table(tidy_data,paste(fileURL,"/tidy_data.txt",sep=""),row.names = FALSE)
+  write.table(tidy_data,paste(directory,"/tidy_data.txt",sep=""),row.names = FALSE)
   
   tidy_data
 }
